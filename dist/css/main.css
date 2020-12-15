@@ -157,6 +157,22 @@ h1, h2, h3 {
     padding: 0.2rem 1rem;
     background: #252525 0.5; }
 
+a {
+  color: white;
+  text-decoration: none; }
+
+header {
+  position: fixed;
+  z-index: 10;
+  width: 100%; }
+
+.elements {
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  top: 0;
+  left: 0; }
+
 .otsikko {
   top: 0;
   margin: 0;
@@ -170,30 +186,8 @@ h1, h2, h3 {
   color: #51c76b;
   margin-bottom: 0.3rem; }
 
-a {
-  color: white;
-  text-decoration: none; }
-
-header {
-  position: fixed;
-  z-index: 10;
-  width: 100%; }
-
 .text-secondary {
   color: #51c76b; }
-
-#taytto {
-  height: 5000px;
-  width: 200px;
-  z-index: 1000;
-  background: yellow; }
-
-.elements {
-  height: 100vh;
-  width: 100%;
-  margin: 0;
-  top: 0;
-  left: 0; }
 
 #element1 {
   background: #161616;
@@ -493,14 +487,14 @@ main {
       .boxes div:hover span {
         color: #000; }
 
-.btn, .btn-dark, .btn-light {
+.btn, .btn-dark {
   display: block;
   padding: 0.5rem 1rem;
   border: 0;
   margin-top: 0.8rem;
   text-align: center;
   transition-duration: 0.3s; }
-  .btn:hover, .btn-dark:hover, .btn-light:hover {
+  .btn:hover, .btn-dark:hover {
     background: #202020;
     color: #000;
     border: 1.2px solid #51c76b;
@@ -511,12 +505,6 @@ main {
   border-radius: 500px;
   border: 1.2px solid #51c76b;
   background: #51c76b; }
-
-.btn-light {
-  background: #868686;
-  color: #333;
-  border-radius: 500px;
-  border: 1.2px solid #202020; }
 
 #main-footer {
   text-align: center;

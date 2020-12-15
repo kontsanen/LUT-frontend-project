@@ -35,7 +35,6 @@ p {
     font-size: 1.2rem;
 }
 
-//headings
 
 h1, h2, h3 {
     font-weight: 600;
@@ -52,6 +51,32 @@ h1, h2, h3 {
 
     }
 }
+
+
+
+a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+header {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+}
+
+
+.elements {
+    height: 100vh;
+    
+    width: 100%;
+    margin: 0;
+    
+    top: 0;
+    left: 0;
+}
+
 
 .otsikko {
     top: 0;
@@ -70,38 +95,9 @@ h1, h2, h3 {
    
 }
 
-a {
-    color: white;
-    text-decoration: none;
-    
-}
-
-header {
-    position: fixed;
-    z-index: 10;
-    width: 100%;
-}
-
 .text-secondary {
     color: $secondary-color;
 
-}
-
-#taytto {
-    height: 5000px;
-    width: 200px;
-    z-index: 1000;
-    background: yellow;
-}
-
-.elements {
-    height: 100vh;
-    
-    width: 100%;
-    margin: 0;
-    
-    top: 0;
-    left: 0;
 }
 
 
@@ -140,13 +136,6 @@ header {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-
-   
-   
-    
-    
-    
-
 }
 
 
@@ -155,8 +144,6 @@ header {
     
     height: 55vh;
     position: absolute;
-    
-
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -174,9 +161,6 @@ header {
     .roundbutton {
         
         padding: 0.7rem 1.3rem;
-        
-
-        
         border-radius: 500px;
         background: $secondary-color;
         border: none;
@@ -303,13 +287,8 @@ header {
     margin: auto;
     padding: 0.1rem 3rem;
     background: purple;
-    
-
-    
-    
-
-
 }
+
 .container2 {
 display: grid;
     grid-gap: 30px;
@@ -486,7 +465,7 @@ main {
     
 
 }
-//projects2
+
 
 .projects-info {
     width: 90%;
@@ -501,7 +480,7 @@ main {
 
 }
 
-// work/projects
+
 
 #work {
     max-width: 1000px;
@@ -559,13 +538,11 @@ main {
     margin-top: 15vh;
 }
 
-// contact
 
 
 
-#contact {
 
-}
+
 
 .boxes {
     display: flex;
@@ -600,7 +577,7 @@ main {
 
 
 
-// button styles
+
 
 .btn {
     display: block;
@@ -633,14 +610,7 @@ main {
 }
 
 
-.btn-light {
 
-    @extend .btn;
-    background: lighten($primary-color, 40);
-    color: #333;
-    border-radius: 500px;
-    border: 1.2px solid $primary-color;
-}
 
 #main-footer {
 
@@ -716,7 +686,7 @@ main {
 }
 
 
-//contact
+
 
 #form {
     margin-top: 2rem;

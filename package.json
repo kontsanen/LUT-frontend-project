@@ -1,9 +1,9 @@
 {
   "name": "frontend-paatto",
   "version": "1.0.0",
-  "description": "taalta loytyy frontend-kamaa",
+  "description": "frontend-kurssin paattotyo",
   "main": "index.js",
-  "homepage": "https://kontsanen.github.io/front-end-project",
+  "homepage": "https://kontsanen.github.io/frontend-project",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
