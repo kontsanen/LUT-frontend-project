@@ -2,7 +2,7 @@
 
 <h3>General info</h3>
 
-This repository contains everything related to the Front-end course hosted by LUT.
+Konsta Raitanen's repository containing everything related to the Front-end course hosted by LUT.
 </br>
 <h3>The project</h3>
 
